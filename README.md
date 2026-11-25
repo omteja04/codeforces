@@ -6,36 +6,37 @@
 
 | Total Problems | Topics |
 |---|---|
-| 132 | 24 |
+| 146 | 25 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (1)
+- [Uncategorized](#uncategorized) (2)
 - [binary search](#binary-search) (24)
-- [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (29)
+- [bitmasks](#bitmasks) (3)
+- [brute force](#brute-force) (32)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (21)
-- [data structures](#data-structures) (4)
+- [constructive algorithms](#constructive-algorithms) (23)
+- [data structures](#data-structures) (6)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (7)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (2)
-- [geometry](#geometry) (2)
+- [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (1)
-- [greedy](#greedy) (43)
-- [implementation](#implementation) (47)
-- [interactive](#interactive) (8)
-- [math](#math) (56)
-- [number theory](#number-theory) (16)
+- [graphs](#graphs) (2)
+- [greedy](#greedy) (50)
+- [implementation](#implementation) (51)
+- [interactive](#interactive) (9)
+- [math](#math) (63)
+- [number theory](#number-theory) (17)
+- [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (2)
 - [sortings](#sortings) (18)
 - [strings](#strings) (11)
 - [ternary search](#ternary-search) (2)
-- [two pointers](#two-pointers) (10)
+- [two pointers](#two-pointers) (11)
 
 ---
 
@@ -43,6 +44,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 577C | [Vasya and Petya's Game](https://codeforces.com/contest/577/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/577/C%20-%20Vasya%20and%20Petya's%20Game/solution.cpp) |
 | 782B | [The Meeting Place Cannot Be Changed](https://codeforces.com/contest/782/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/782/B%20-%20The%20Meeting%20Place%20Cannot%20Be%20Changed/solution.cpp) |
 
 ### binary search
@@ -80,6 +82,7 @@
 |---|---------|------------|----------|
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.cpp) |
 | 2072C | [Creating Keys for StORages Has Become My Main Skill](https://codeforces.com/contest/2072/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2072/C%20-%20Creating%20Keys%20for%20StORages%20Has%20Become%20My%20Main%20Skill/solution.cpp) |
+| 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.cpp) |
 
 ### brute force
 
@@ -114,6 +117,9 @@
 | 2060A | [Fibonacciness](https://codeforces.com/contest/2060/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/A%20-%20Fibonacciness/solution.cpp) |
 | 2070A | [FizzBuzz Remixed](https://codeforces.com/contest/2070/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2070/A%20-%20FizzBuzz%20Remixed/solution.cpp) |
 | 2070B | [Robot Program](https://codeforces.com/contest/2070/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2070/B%20-%20Robot%20Program/solution.cpp) |
+| 2071B | [Perfecto](https://codeforces.com/contest/2071/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2071/B%20-%20Perfecto/solution.cpp) |
+| 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.cpp) |
+| 2074D | [Counting Points](https://codeforces.com/contest/2074/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/D%20-%20Counting%20Points/solution.cpp) |
 
 ### combinatorics
 
@@ -148,17 +154,21 @@
 | 2048B | [Kevin and Permutation](https://codeforces.com/contest/2048/problem/B) | 900 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2048/B%20-%20Kevin%20and%20Permutation/solution.cpp) |
 | 2049B | [pspspsps](https://codeforces.com/contest/2049/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2049/B%20-%20pspspsps/solution.cpp) |
 | 2051C | [Preparing for the Exam](https://codeforces.com/contest/2051/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/C%20-%20Preparing%20for%20the%20Exam/solution.cpp) |
+| 2071B | [Perfecto](https://codeforces.com/contest/2071/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2071/B%20-%20Perfecto/solution.cpp) |
 | 2072B | [Having Been a Treasurer in the Past, I Help Goblins Deceive](https://codeforces.com/contest/2072/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2072/B%20-%20Having%20Been%20a%20Treasurer%20in%20the%20Past%2C%20I%20Help%20Goblins%20Deceive/solution.cpp) |
 | 2072C | [Creating Keys for StORages Has Become My Main Skill](https://codeforces.com/contest/2072/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2072/C%20-%20Creating%20Keys%20for%20StORages%20Has%20Become%20My%20Main%20Skill/solution.cpp) |
+| 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 
 ### data structures
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
+| 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1955B | [Progressive Square](https://codeforces.com/contest/1955/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1955/B%20-%20Progressive%20Square/solution.cpp) |
 | 2000C | [Numeric String Template](https://codeforces.com/contest/2000/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2000/C%20-%20Numeric%20String%20Template/solution.cpp) |
 | 2051E | [Best Price](https://codeforces.com/contest/2051/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/E%20-%20Best%20Price/solution.cpp) |
+| 2074D | [Counting Points](https://codeforces.com/contest/2074/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/D%20-%20Counting%20Points/solution.cpp) |
 
 ### dfs and similar
 
@@ -197,6 +207,11 @@
 |---|---------|------------|----------|
 | 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.cpp) |
 | 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
+| 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.cpp) |
+| 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.cpp) |
+| 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.cpp) |
+| 2074D | [Counting Points](https://codeforces.com/contest/2074/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/D%20-%20Counting%20Points/solution.cpp) |
+| 2074E | [Empty Triangle](https://codeforces.com/contest/2074/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/E%20-%20Empty%20Triangle/solution.cpp) |
 
 ### graph matchings
 
@@ -210,6 +225,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
+| 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 
 ### greedy
 
@@ -217,8 +233,11 @@
 |---|---------|------------|----------|
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 514A | [Chewbaсca and Number](https://codeforces.com/contest/514/problem/A) | 1200 | [C++20 (GCC 13-64)](https://github.com/omteja04/codeforces/blob/HEAD/514/A%20-%20Chewba%D1%81ca%20and%20Number/solution.cpp) |
+| 587A | [Duff and Weight Lifting](https://codeforces.com/contest/587/problem/A) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/587/A%20-%20Duff%20and%20Weight%20Lifting/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
+| 1348A | [Phoenix and Balance](https://codeforces.com/contest/1348/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1348/A%20-%20Phoenix%20and%20Balance/solution.cpp) |
+| 1520E | [Arranging The Sheep](https://codeforces.com/contest/1520/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1520/E%20-%20Arranging%20The%20Sheep/solution.cpp) |
 | 1610C | [Keshi Is Throwing a Party](https://codeforces.com/contest/1610/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1610/C%20-%20Keshi%20Is%20Throwing%20a%20Party/solution.cpp) |
 | 1622C | [Set or Decrease](https://codeforces.com/contest/1622/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1622/C%20-%20Set%20or%20Decrease/solution.cpp) |
 | 1862A | [Gift Carpet](https://codeforces.com/contest/1862/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1862/A%20-%20Gift%20Carpet/solution.cpp) |
@@ -256,8 +275,12 @@
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
 | 2060D | [Subtract Min Sort](https://codeforces.com/contest/2060/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/D%20-%20Subtract%20Min%20Sort/solution.cpp) |
 | 2070C | [Limited Repainting](https://codeforces.com/contest/2070/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2070/C%20-%20Limited%20Repainting/solution.cpp) |
+| 2071B | [Perfecto](https://codeforces.com/contest/2071/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2071/B%20-%20Perfecto/solution.cpp) |
 | 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.cpp) |
 | 2072C | [Creating Keys for StORages Has Become My Main Skill](https://codeforces.com/contest/2072/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2072/C%20-%20Creating%20Keys%20for%20StORages%20Has%20Become%20My%20Main%20Skill/solution.cpp) |
+| 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.cpp) |
+| 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.cpp) |
+| 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 
 ### implementation
 
@@ -278,6 +301,7 @@
 | 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
 | 1208B | [Uniqueness](https://codeforces.com/contest/1208/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1208/B%20-%20Uniqueness/solution.cpp) |
 | 1766B | [Notepad#](https://codeforces.com/contest/1766/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1766/B%20-%20Notepad%23/solution.cpp) |
+| 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
 | 1807E | [Interview](https://codeforces.com/contest/1807/problem/E) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1807/E%20-%20Interview/solution.cpp) |
 | 1829A | [Love Story](https://codeforces.com/contest/1829/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1829/A%20-%20Love%20Story/solution.cpp) |
 | 1829B | [Blank Space](https://codeforces.com/contest/1829/problem/B) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1829/B%20-%20Blank%20Space/solution.cpp) |
@@ -310,6 +334,9 @@
 | 2051C | [Preparing for the Exam](https://codeforces.com/contest/2051/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/C%20-%20Preparing%20for%20the%20Exam/solution.cpp) |
 | 2070B | [Robot Program](https://codeforces.com/contest/2070/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2070/B%20-%20Robot%20Program/solution.cpp) |
 | 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.cpp) |
+| 2074A | [Draw a Square](https://codeforces.com/contest/2074/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/A%20-%20Draw%20a%20Square/solution.cpp) |
+| 2074D | [Counting Points](https://codeforces.com/contest/2074/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/D%20-%20Counting%20Points/solution.cpp) |
+| 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 
 ### interactive
 
@@ -323,6 +350,7 @@
 | 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
 | 1999G1 | [Ruler (easy version)](https://codeforces.com/contest/1999/problem/G1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G1%20-%20Ruler%20(easy%20version)/solution.cpp) |
 | 1999G2 | [Ruler (hard version)](https://codeforces.com/contest/1999/problem/G2) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G2%20-%20Ruler%20(hard%20version)/solution.cpp) |
+| 2074E | [Empty Triangle](https://codeforces.com/contest/2074/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/E%20-%20Empty%20Triangle/solution.cpp) |
 
 ### math
 
@@ -341,6 +369,8 @@
 | 727C | [Guess the Array](https://codeforces.com/contest/727/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/727/C%20-%20Guess%20the%20Array/solution.cpp) |
 | 844B | [Rectangles](https://codeforces.com/contest/844/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/844/B%20-%20Rectangles/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
+| 1348A | [Phoenix and Balance](https://codeforces.com/contest/1348/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1348/A%20-%20Phoenix%20and%20Balance/solution.cpp) |
+| 1520E | [Arranging The Sheep](https://codeforces.com/contest/1520/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1520/E%20-%20Arranging%20The%20Sheep/solution.cpp) |
 | 1872A | [Two Vessels](https://codeforces.com/contest/1872/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/A%20-%20Two%20Vessels/solution.cpp) |
 | 1872C | [Non-coprime Split](https://codeforces.com/contest/1872/problem/C) | 1100 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/C%20-%20Non-coprime%20Split/solution.cpp) |
 | 1878B | [Aleksa and Stack](https://codeforces.com/contest/1878/problem/B) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1878/B%20-%20Aleksa%20and%20Stack/solution.cpp) |
@@ -383,7 +413,12 @@
 | 2051B | [Journey](https://codeforces.com/contest/2051/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/B%20-%20Journey/solution.cpp) |
 | 2070A | [FizzBuzz Remixed](https://codeforces.com/contest/2070/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2070/A%20-%20FizzBuzz%20Remixed/solution.cpp) |
 | 2070B | [Robot Program](https://codeforces.com/contest/2070/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2070/B%20-%20Robot%20Program/solution.cpp) |
+| 2071A | [The Play Never Ends](https://codeforces.com/contest/2071/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2071/A%20-%20The%20Play%20Never%20Ends/solution.cpp) |
+| 2071B | [Perfecto](https://codeforces.com/contest/2071/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2071/B%20-%20Perfecto/solution.cpp) |
 | 2072A | [New World, New Me, New Array](https://codeforces.com/contest/2072/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2072/A%20-%20New%20World%2C%20New%20Me%2C%20New%20Array/solution.cpp) |
+| 2074B | [The Third Side](https://codeforces.com/contest/2074/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/B%20-%20The%20Third%20Side/solution.cpp) |
+| 2078A | [Final Verdict](https://codeforces.com/contest/2078/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/A%20-%20Final%20Verdict/solution.cpp) |
+| 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 
 ### number theory
 
@@ -405,6 +440,14 @@
 | 1985B | [Maximum Multiple Sum](https://codeforces.com/contest/1985/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1985/B%20-%20Maximum%20Multiple%20Sum/solution.cpp) |
 | 1998B | [Minimize Equal Sum Subarrays](https://codeforces.com/contest/1998/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1998/B%20-%20Minimize%20Equal%20Sum%20Subarrays/solution.cpp) |
 | 2048A | [Kevin and Combination Lock](https://codeforces.com/contest/2048/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2048/A%20-%20Kevin%20and%20Combination%20Lock/solution.cpp) |
+| 2071A | [The Play Never Ends](https://codeforces.com/contest/2071/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2071/A%20-%20The%20Play%20Never%20Ends/solution.cpp) |
+
+### probabilities
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.cpp) |
+| 2074E | [Empty Triangle](https://codeforces.com/contest/2074/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/E%20-%20Empty%20Triangle/solution.cpp) |
 
 ### shortest paths
 
@@ -473,6 +516,7 @@
 | 2000B | [Seating in a Bus](https://codeforces.com/contest/2000/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2000/B%20-%20Seating%20in%20a%20Bus/solution.cpp) |
 | 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
+| 2074D | [Counting Points](https://codeforces.com/contest/2074/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/D%20-%20Counting%20Points/solution.cpp) |
 
 ---
 
