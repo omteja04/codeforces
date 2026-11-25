@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 162 | 28 |
+| 164 | 28 |
 
 ---
 
@@ -15,22 +15,22 @@
 - [Uncategorized](#uncategorized) (3)
 - [binary search](#binary-search) (27)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (34)
+- [brute force](#brute-force) (35)
 - [combinatorics](#combinatorics) (5)
 - [constructive algorithms](#constructive-algorithms) (29)
 - [data structures](#data-structures) (6)
-- [dfs and similar](#dfs-and-similar) (2)
+- [dfs and similar](#dfs-and-similar) (4)
 - [dp](#dp) (10)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (3)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (3)
+- [graphs](#graphs) (4)
 - [greedy](#greedy) (58)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (56)
 - [interactive](#interactive) (9)
-- [math](#math) (66)
+- [math](#math) (67)
 - [number theory](#number-theory) (17)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (2)
@@ -100,6 +100,7 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
 | 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
+| 727A | [Transformation: from A to B](https://codeforces.com/contest/727/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/727/A%20-%20Transformation%3A%20from%20A%20to%20B/solution.cpp) |
 | 1208B | [Uniqueness](https://codeforces.com/contest/1208/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1208/B%20-%20Uniqueness/solution.cpp) |
 | 1622C | [Set or Decrease](https://codeforces.com/contest/1622/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1622/C%20-%20Set%20or%20Decrease/solution.cpp) |
 | 1872A | [Two Vessels](https://codeforces.com/contest/1872/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/A%20-%20Two%20Vessels/solution.cpp) |
@@ -191,6 +192,8 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
+| 727A | [Transformation: from A to B](https://codeforces.com/contest/727/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/727/A%20-%20Transformation%3A%20from%20A%20to%20B/solution.cpp) |
+| 813C | [The Tag Game](https://codeforces.com/contest/813/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/813/C%20-%20The%20Tag%20Game/solution.cpp) |
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
 
 ### dp
@@ -246,6 +249,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
+| 813C | [The Tag Game](https://codeforces.com/contest/813/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/813/C%20-%20The%20Tag%20Game/solution.cpp) |
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
 | 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 
@@ -407,6 +411,7 @@
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 610A | [Pasha and Stick](https://codeforces.com/contest/610/problem/A) | 1000 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/610/A%20-%20Pasha%20and%20Stick/solution.cpp) |
 | 630C | [Lucky Numbers](https://codeforces.com/contest/630/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/630/C%20-%20Lucky%20Numbers/solution.cpp) |
+| 727A | [Transformation: from A to B](https://codeforces.com/contest/727/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/727/A%20-%20Transformation%3A%20from%20A%20to%20B/solution.cpp) |
 | 727C | [Guess the Array](https://codeforces.com/contest/727/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/727/C%20-%20Guess%20the%20Array/solution.cpp) |
 | 844B | [Rectangles](https://codeforces.com/contest/844/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/844/B%20-%20Rectangles/solution.cpp) |
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
