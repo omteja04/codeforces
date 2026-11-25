@@ -6,35 +6,36 @@
 
 | Total Problems | Topics |
 |---|---|
-| 104 | 23 |
+| 118 | 24 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [Uncategorized](#uncategorized) (1)
-- [binary search](#binary-search) (13)
+- [binary search](#binary-search) (21)
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (24)
+- [brute force](#brute-force) (26)
 - [combinatorics](#combinatorics) (1)
-- [constructive algorithms](#constructive-algorithms) (16)
+- [constructive algorithms](#constructive-algorithms) (18)
 - [data structures](#data-structures) (4)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (5)
-- [games](#games) (1)
-- [geometry](#geometry) (1)
+- [dp](#dp) (6)
+- [expression parsing](#expression-parsing) (1)
+- [games](#games) (2)
+- [geometry](#geometry) (2)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (34)
-- [implementation](#implementation) (42)
-- [interactive](#interactive) (3)
-- [math](#math) (45)
+- [greedy](#greedy) (38)
+- [implementation](#implementation) (43)
+- [interactive](#interactive) (8)
+- [math](#math) (46)
 - [number theory](#number-theory) (12)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (13)
+- [sortings](#sortings) (16)
 - [strings](#strings) (10)
-- [ternary search](#ternary-search) (1)
-- [two pointers](#two-pointers) (7)
+- [ternary search](#ternary-search) (2)
+- [two pointers](#two-pointers) (10)
 
 ---
 
@@ -49,15 +50,23 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 474B | [Worms](https://codeforces.com/contest/474/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/474/B%20-%20Worms/solution.cpp) |
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
+| 645C | [Enduring Exodus](https://codeforces.com/contest/645/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/645/C%20-%20Enduring%20Exodus/solution.cpp) |
 | 702C | [Cellular Network](https://codeforces.com/contest/702/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/702/C%20-%20Cellular%20Network/solution.cpp) |
+| 756B | [Travel Card](https://codeforces.com/contest/756/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/756/B%20-%20Travel%20Card/solution.cpp) |
 | 1166C | [A Tale of Two Lands](https://codeforces.com/contest/1166/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1166/C%20-%20A%20Tale%20of%20Two%20Lands/solution.cpp) |
 | 1208B | [Uniqueness](https://codeforces.com/contest/1208/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1208/B%20-%20Uniqueness/solution.cpp) |
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
 | 1479A | [Searching Local Minimum](https://codeforces.com/contest/1479/problem/A) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1479/A%20-%20Searching%20Local%20Minimum/solution.cpp) |
+| 1486C1 | [Guessing the Greatest (easy version)](https://codeforces.com/contest/1486/problem/C1) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1486/C1%20-%20Guessing%20the%20Greatest%20(easy%20version)/solution.cpp) |
 | 1610C | [Keshi Is Throwing a Party](https://codeforces.com/contest/1610/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1610/C%20-%20Keshi%20Is%20Throwing%20a%20Party/solution.cpp) |
+| 1698D | [Fixed Point Guessing](https://codeforces.com/contest/1698/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1698/D%20-%20Fixed%20Point%20Guessing/solution.cpp) |
 | 1807E | [Interview](https://codeforces.com/contest/1807/problem/E) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1807/E%20-%20Interview/solution.cpp) |
 | 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/B%20-%20Haunted%20House/solution.cpp) |
 | 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.cpp) |
+| 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
+| 1999G1 | [Ruler (easy version)](https://codeforces.com/contest/1999/problem/G1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G1%20-%20Ruler%20(easy%20version)/solution.cpp) |
+| 1999G2 | [Ruler (hard version)](https://codeforces.com/contest/1999/problem/G2) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G2%20-%20Ruler%20(hard%20version)/solution.cpp) |
 | 2051B | [Journey](https://codeforces.com/contest/2051/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/B%20-%20Journey/solution.cpp) |
 | 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 | 2051E | [Best Price](https://codeforces.com/contest/2051/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/E%20-%20Best%20Price/solution.cpp) |
@@ -74,6 +83,7 @@
 |---|---------|------------|----------|
 | 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/4/A%20-%20Watermelon/solution.cpp) |
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/231/A%20-%20Team/solution.cpp) |
+| 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.cpp) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.cpp) |
 | 1208B | [Uniqueness](https://codeforces.com/contest/1208/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1208/B%20-%20Uniqueness/solution.cpp) |
 | 1872A | [Two Vessels](https://codeforces.com/contest/1872/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/A%20-%20Two%20Vessels/solution.cpp) |
@@ -96,6 +106,7 @@
 | 2048C | [Kevin and Binary Strings](https://codeforces.com/contest/2048/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2048/C%20-%20Kevin%20and%20Binary%20Strings/solution.cpp) |
 | 2049B | [pspspsps](https://codeforces.com/contest/2049/problem/B) | 1300 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2049/B%20-%20pspspsps/solution.cpp) |
 | 2051E | [Best Price](https://codeforces.com/contest/2051/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/E%20-%20Best%20Price/solution.cpp) |
+| 2060A | [Fibonacciness](https://codeforces.com/contest/2060/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/A%20-%20Fibonacciness/solution.cpp) |
 
 ### combinatorics
 
@@ -110,10 +121,12 @@
 | 266B | [Queue at the School](https://codeforces.com/contest/266/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/266/B%20-%20Queue%20at%20the%20School/solution.cpp) |
 | 727C | [Guess the Array](https://codeforces.com/contest/727/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/727/C%20-%20Guess%20the%20Array/solution.cpp) |
 | 776B | [Sherlock and his girlfriend](https://codeforces.com/contest/776/problem/B) | 1200 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/776/B%20-%20Sherlock%20and%20his%20girlfriend/solution.cpp) |
+| 1698D | [Fixed Point Guessing](https://codeforces.com/contest/1698/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1698/D%20-%20Fixed%20Point%20Guessing/solution.cpp) |
 | 1839C | [Insert Zero and Invert Prefix](https://codeforces.com/contest/1839/problem/C) | 1300 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1839/C%20-%20Insert%20Zero%20and%20Invert%20Prefix/solution.cpp) |
 | 1878B | [Aleksa and Stack](https://codeforces.com/contest/1878/problem/B) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1878/B%20-%20Aleksa%20and%20Stack/solution.cpp) |
 | 1886A | [Sum of Three](https://codeforces.com/contest/1886/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/A%20-%20Sum%20of%20Three/solution.cpp) |
 | 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
 | 1955B | [Progressive Square](https://codeforces.com/contest/1955/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1955/B%20-%20Progressive%20Square/solution.cpp) |
 | 1968C | [Assembly via Remainders](https://codeforces.com/contest/1968/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/C%20-%20Assembly%20via%20Remainders/solution.cpp) |
 | 1992A | [Only Pluses](https://codeforces.com/contest/1992/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1992/A%20-%20Only%20Pluses/solution.cpp) |
@@ -143,23 +156,32 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 756B | [Travel Card](https://codeforces.com/contest/756/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/756/B%20-%20Travel%20Card/solution.cpp) |
 | 1862A | [Gift Carpet](https://codeforces.com/contest/1862/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1862/A%20-%20Gift%20Carpet/solution.cpp) |
 | 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1883/C%20-%20Raspberries/solution.cpp) |
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
 | 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
 | 2019A | [Max Plus Size](https://codeforces.com/contest/2019/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2019/A%20-%20Max%20Plus%20Size/solution.cpp) |
 
+### expression parsing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 32B | [Borze](https://codeforces.com/contest/32/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/32/B%20-%20Borze/solution.cpp) |
+
 ### games
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1919A | [Wallet Exchange](https://codeforces.com/contest/1919/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1919/A%20-%20Wallet%20Exchange/solution.cpp) |
+| 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
 
 ### geometry
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.cpp) |
+| 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
 
 ### graph matchings
 
@@ -195,6 +217,7 @@
 | 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1921/A%20-%20Square/solution.cpp) |
 | 1933A | [Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/A%20-%20Turtle%20Puzzle%3A%20Rearrange%20and%20Negate/solution.cpp) |
 | 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
 | 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
 | 1945A | [Setting up Camp](https://codeforces.com/contest/1945/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1945/A%20-%20Setting%20up%20Camp/solution.cpp) |
 | 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/B%20-%20Prefiquence/solution.cpp) |
@@ -212,11 +235,15 @@
 | 2049A | [MEX Destruction](https://codeforces.com/contest/2049/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2049/A%20-%20MEX%20Destruction/solution.cpp) |
 | 2051A | [Preparing for the Olympiad](https://codeforces.com/contest/2051/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/A%20-%20Preparing%20for%20the%20Olympiad/solution.cpp) |
 | 2051E | [Best Price](https://codeforces.com/contest/2051/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/E%20-%20Best%20Price/solution.cpp) |
+| 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.cpp) |
+| 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
+| 2060D | [Subtract Min Sort](https://codeforces.com/contest/2060/problem/D) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/D%20-%20Subtract%20Min%20Sort/solution.cpp) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 32B | [Borze](https://codeforces.com/contest/32/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/32/B%20-%20Borze/solution.cpp) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/69/A%20-%20Young%20Physicist/solution.cpp) |
 | 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.cpp) |
@@ -266,7 +293,12 @@
 |---|---------|------------|----------|
 | 727C | [Guess the Array](https://codeforces.com/contest/727/problem/C) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/727/C%20-%20Guess%20the%20Array/solution.cpp) |
 | 1479A | [Searching Local Minimum](https://codeforces.com/contest/1479/problem/A) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1479/A%20-%20Searching%20Local%20Minimum/solution.cpp) |
+| 1486C1 | [Guessing the Greatest (easy version)](https://codeforces.com/contest/1486/problem/C1) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1486/C1%20-%20Guessing%20the%20Greatest%20(easy%20version)/solution.cpp) |
+| 1698D | [Fixed Point Guessing](https://codeforces.com/contest/1698/problem/D) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1698/D%20-%20Fixed%20Point%20Guessing/solution.cpp) |
 | 1807E | [Interview](https://codeforces.com/contest/1807/problem/E) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1807/E%20-%20Interview/solution.cpp) |
+| 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
+| 1999G1 | [Ruler (easy version)](https://codeforces.com/contest/1999/problem/G1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G1%20-%20Ruler%20(easy%20version)/solution.cpp) |
+| 1999G2 | [Ruler (hard version)](https://codeforces.com/contest/1999/problem/G2) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G2%20-%20Ruler%20(hard%20version)/solution.cpp) |
 
 ### math
 
@@ -295,6 +327,7 @@
 | 1933A | [Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/A%20-%20Turtle%20Puzzle%3A%20Rearrange%20and%20Negate/solution.cpp) |
 | 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.cpp) |
 | 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1934C | [Find a Mine](https://codeforces.com/contest/1934/problem/C) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1934/C%20-%20Find%20a%20Mine/solution.cpp) |
 | 1941A | [Rudolf and the Ticket](https://codeforces.com/contest/1941/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/A%20-%20Rudolf%20and%20the%20Ticket/solution.cpp) |
 | 1945A | [Setting up Camp](https://codeforces.com/contest/1945/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1945/A%20-%20Setting%20up%20Camp/solution.cpp) |
 | 1950C | [Clock Conversion](https://codeforces.com/contest/1950/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/C%20-%20Clock%20Conversion/solution.cpp) |
@@ -346,6 +379,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
 | 1166C | [A Tale of Two Lands](https://codeforces.com/contest/1166/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1166/C%20-%20A%20Tale%20of%20Two%20Lands/solution.cpp) |
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
@@ -359,6 +393,8 @@
 | 1992B | [Angry Monk](https://codeforces.com/contest/1992/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1992/B%20-%20Angry%20Monk/solution.cpp) |
 | 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
 | 2051E | [Best Price](https://codeforces.com/contest/2051/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/E%20-%20Best%20Price/solution.cpp) |
+| 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.cpp) |
+| 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
 
 ### strings
 
@@ -380,11 +416,14 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1479A | [Searching Local Minimum](https://codeforces.com/contest/1479/problem/A) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1479/A%20-%20Searching%20Local%20Minimum/solution.cpp) |
+| 1999G2 | [Ruler (hard version)](https://codeforces.com/contest/1999/problem/G2) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G2%20-%20Ruler%20(hard%20version)/solution.cpp) |
 
 ### two pointers
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
+| 645C | [Enduring Exodus](https://codeforces.com/contest/645/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/645/C%20-%20Enduring%20Exodus/solution.cpp) |
 | 702C | [Cellular Network](https://codeforces.com/contest/702/problem/C) | 1500 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/702/C%20-%20Cellular%20Network/solution.cpp) |
 | 1166C | [A Tale of Two Lands](https://codeforces.com/contest/1166/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1166/C%20-%20A%20Tale%20of%20Two%20Lands/solution.cpp) |
 | 1208B | [Uniqueness](https://codeforces.com/contest/1208/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1208/B%20-%20Uniqueness/solution.cpp) |
@@ -392,6 +431,7 @@
 | 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/B%20-%20Prefiquence/solution.cpp) |
 | 2000B | [Seating in a Bus](https://codeforces.com/contest/2000/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/2000/B%20-%20Seating%20in%20a%20Bus/solution.cpp) |
 | 2051D | [Counting Pairs](https://codeforces.com/contest/2051/problem/D) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/D%20-%20Counting%20Pairs/solution.cpp) |
+| 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
 
 ---
 
