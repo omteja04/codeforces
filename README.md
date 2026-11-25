@@ -6,36 +6,39 @@
 
 | Total Problems | Topics |
 |---|---|
-| 154 | 25 |
+| 162 | 28 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (2)
-- [binary search](#binary-search) (25)
+- [Uncategorized](#uncategorized) (3)
+- [binary search](#binary-search) (27)
 - [bitmasks](#bitmasks) (4)
-- [brute force](#brute-force) (33)
+- [brute force](#brute-force) (34)
 - [combinatorics](#combinatorics) (5)
-- [constructive algorithms](#constructive-algorithms) (28)
+- [constructive algorithms](#constructive-algorithms) (29)
 - [data structures](#data-structures) (6)
-- [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (9)
+- [dfs and similar](#dfs-and-similar) (2)
+- [dp](#dp) (10)
 - [expression parsing](#expression-parsing) (1)
 - [games](#games) (3)
 - [geometry](#geometry) (7)
 - [graph matchings](#graph-matchings) (2)
-- [graphs](#graphs) (2)
-- [greedy](#greedy) (55)
-- [implementation](#implementation) (54)
+- [graphs](#graphs) (3)
+- [greedy](#greedy) (58)
+- [hashing](#hashing) (1)
+- [implementation](#implementation) (56)
 - [interactive](#interactive) (9)
-- [math](#math) (64)
+- [math](#math) (66)
 - [number theory](#number-theory) (17)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (2)
-- [sortings](#sortings) (18)
-- [strings](#strings) (11)
+- [sortings](#sortings) (19)
+- [string suffix structures](#string-suffix-structures) (1)
+- [strings](#strings) (12)
 - [ternary search](#ternary-search) (2)
+- [trees](#trees) (1)
 - [two pointers](#two-pointers) (11)
 
 ---
@@ -46,11 +49,13 @@
 |---|---------|------------|----------|
 | 577C | [Vasya and Petya's Game](https://codeforces.com/contest/577/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/577/C%20-%20Vasya%20and%20Petya's%20Game/solution.cpp) |
 | 782B | [The Meeting Place Cannot Be Changed](https://codeforces.com/contest/782/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/782/B%20-%20The%20Meeting%20Place%20Cannot%20Be%20Changed/solution.cpp) |
+| 2116C | [Gellyfish and Flaming Peony](https://codeforces.com/contest/2116/problem/C) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2116/C%20-%20Gellyfish%20and%20Flaming%20Peony/solution.cpp) |
 
 ### binary search
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 474B | [Worms](https://codeforces.com/contest/474/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/474/B%20-%20Worms/solution.cpp) |
 | 580B | [Kefa and Company](https://codeforces.com/contest/580/problem/B) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/B%20-%20Kefa%20and%20Company/solution.cpp) |
@@ -76,6 +81,7 @@
 | 2051E | [Best Price](https://codeforces.com/contest/2051/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/E%20-%20Best%20Price/solution.cpp) |
 | 2070C | [Limited Repainting](https://codeforces.com/contest/2070/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2070/C%20-%20Limited%20Repainting/solution.cpp) |
 | 2107C | [Maximum Subarray Sum](https://codeforces.com/contest/2107/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2107/C%20-%20Maximum%20Subarray%20Sum/solution.cpp) |
+| 2146C | [Wrong Binary Search](https://codeforces.com/contest/2146/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2146/C%20-%20Wrong%20Binary%20Search/solution.cpp) |
 
 ### bitmasks
 
@@ -123,6 +129,7 @@
 | 2074C | [XOR and Triangle](https://codeforces.com/contest/2074/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/C%20-%20XOR%20and%20Triangle/solution.cpp) |
 | 2074D | [Counting Points](https://codeforces.com/contest/2074/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2074/D%20-%20Counting%20Points/solution.cpp) |
 | 2098A | [Vadim's Collection](https://codeforces.com/contest/2098/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2098/A%20-%20Vadim's%20Collection/solution.cpp) |
+| 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.cpp) |
 
 ### combinatorics
 
@@ -166,6 +173,7 @@
 | 2085B | [Serval and Final MEX](https://codeforces.com/contest/2085/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2085/B%20-%20Serval%20and%20Final%20MEX/solution.cpp) |
 | 2085C | [Serval and The Formula](https://codeforces.com/contest/2085/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2085/C%20-%20Serval%20and%20The%20Formula/solution.cpp) |
 | 2107C | [Maximum Subarray Sum](https://codeforces.com/contest/2107/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2107/C%20-%20Maximum%20Subarray%20Sum/solution.cpp) |
+| 2146C | [Wrong Binary Search](https://codeforces.com/contest/2146/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2146/C%20-%20Wrong%20Binary%20Search/solution.cpp) |
 
 ### data structures
 
@@ -182,12 +190,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
 
 ### dp
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 546D | [Soldier and Number Game](https://codeforces.com/contest/546/problem/D) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/546/D%20-%20Soldier%20and%20Number%20Game/solution.cpp) |
 | 756B | [Travel Card](https://codeforces.com/contest/756/problem/B) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/756/B%20-%20Travel%20Card/solution.cpp) |
 | 1862A | [Gift Carpet](https://codeforces.com/contest/1862/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1862/A%20-%20Gift%20Carpet/solution.cpp) |
@@ -235,6 +245,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
 | 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 
@@ -297,6 +308,15 @@
 | 2085C | [Serval and The Formula](https://codeforces.com/contest/2085/problem/C) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2085/C%20-%20Serval%20and%20The%20Formula/solution.cpp) |
 | 2098A | [Vadim's Collection](https://codeforces.com/contest/2098/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2098/A%20-%20Vadim's%20Collection/solution.cpp) |
 | 2116A | [Gellyfish and Tricolor Pansy](https://codeforces.com/contest/2116/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2116/A%20-%20Gellyfish%20and%20Tricolor%20Pansy/solution.cpp) |
+| 2116B | [Gellyfish and Baby's Breath](https://codeforces.com/contest/2116/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2116/B%20-%20Gellyfish%20and%20Baby's%20Breath/solution.cpp) |
+| 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.cpp) |
+| 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
+
+### hashing
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 
 ### implementation
 
@@ -356,6 +376,8 @@
 | 2085A | [Serval and String Theory](https://codeforces.com/contest/2085/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2085/A%20-%20Serval%20and%20String%20Theory/solution.cpp) |
 | 2085B | [Serval and Final MEX](https://codeforces.com/contest/2085/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2085/B%20-%20Serval%20and%20Final%20MEX/solution.cpp) |
 | 2107C | [Maximum Subarray Sum](https://codeforces.com/contest/2107/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2107/C%20-%20Maximum%20Subarray%20Sum/solution.cpp) |
+| 2146A | [Equal Occurrences](https://codeforces.com/contest/2146/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2146/A%20-%20Equal%20Occurrences/solution.cpp) |
+| 2146B | [Merging the Sets](https://codeforces.com/contest/2146/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2146/B%20-%20Merging%20the%20Sets/solution.cpp) |
 
 ### interactive
 
@@ -390,6 +412,7 @@
 | 1294C | [Product of Three Numbers](https://codeforces.com/contest/1294/problem/C) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1294/C%20-%20Product%20of%20Three%20Numbers/solution.cpp) |
 | 1348A | [Phoenix and Balance](https://codeforces.com/contest/1348/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1348/A%20-%20Phoenix%20and%20Balance/solution.cpp) |
 | 1520E | [Arranging The Sheep](https://codeforces.com/contest/1520/problem/E) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1520/E%20-%20Arranging%20The%20Sheep/solution.cpp) |
+| 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.cpp) |
 | 1872A | [Two Vessels](https://codeforces.com/contest/1872/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/A%20-%20Two%20Vessels/solution.cpp) |
 | 1872C | [Non-coprime Split](https://codeforces.com/contest/1872/problem/C) | 1100 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/C%20-%20Non-coprime%20Split/solution.cpp) |
 | 1878B | [Aleksa and Stack](https://codeforces.com/contest/1878/problem/B) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1878/B%20-%20Aleksa%20and%20Stack/solution.cpp) |
@@ -439,6 +462,7 @@
 | 2078A | [Final Verdict](https://codeforces.com/contest/2078/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/A%20-%20Final%20Verdict/solution.cpp) |
 | 2078B | [Vicious Labyrinth](https://codeforces.com/contest/2078/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2078/B%20-%20Vicious%20Labyrinth/solution.cpp) |
 | 2107C | [Maximum Subarray Sum](https://codeforces.com/contest/2107/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2107/C%20-%20Maximum%20Subarray%20Sum/solution.cpp) |
+| 2116B | [Gellyfish and Baby's Breath](https://codeforces.com/contest/2116/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2116/B%20-%20Gellyfish%20and%20Baby's%20Breath/solution.cpp) |
 
 ### number theory
 
@@ -498,11 +522,19 @@
 | 2051E | [Best Price](https://codeforces.com/contest/2051/problem/E) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2051/E%20-%20Best%20Price/solution.cpp) |
 | 2060B | [Farmer John's Card Game](https://codeforces.com/contest/2060/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/B%20-%20Farmer%20John's%20Card%20Game/solution.cpp) |
 | 2060C | [Game of Mathletes](https://codeforces.com/contest/2060/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2060/C%20-%20Game%20of%20Mathletes/solution.cpp) |
+| 2116B | [Gellyfish and Baby's Breath](https://codeforces.com/contest/2116/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/2116/B%20-%20Gellyfish%20and%20Baby's%20Breath/solution.cpp) |
+
+### string suffix structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 
 ### strings
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 126B | [Password](https://codeforces.com/contest/126/problem/B) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/126/B%20-%20Password/solution.cpp) |
 | 1829A | [Love Story](https://codeforces.com/contest/1829/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1829/A%20-%20Love%20Story/solution.cpp) |
 | 1862A | [Gift Carpet](https://codeforces.com/contest/1862/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1862/A%20-%20Gift%20Carpet/solution.cpp) |
 | 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1883/B%20-%20Chemistry/solution.cpp) |
@@ -521,6 +553,12 @@
 |---|---------|------------|----------|
 | 1479A | [Searching Local Minimum](https://codeforces.com/contest/1479/problem/A) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1479/A%20-%20Searching%20Local%20Minimum/solution.cpp) |
 | 1999G2 | [Ruler (hard version)](https://codeforces.com/contest/1999/problem/G2) | 1700 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1999/G2%20-%20Ruler%20(hard%20version)/solution.cpp) |
+
+### trees
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 580C | [Kefa and Park](https://codeforces.com/contest/580/problem/C) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/580/C%20-%20Kefa%20and%20Park/solution.cpp) |
 
 ### two pointers
 
