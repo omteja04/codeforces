@@ -1,3 +1,11 @@
+/**
+ * Author: omteja04
+ * Created on: 25-11-2026 22:48:50
+ * Problem: A_Vadim_s_Collection
+ * Link: https://codeforces.com/
+ **/
+ 
+ 
 #include <bits/stdc++.h>
 #include <iostream>
 #include <string>
@@ -255,6 +263,7 @@ void levi() {
         cnt[ch - '0']++;
     }
  
+ 
     for(int need = 9; need >= 0; --need) {
         for(int d = need; d < 10; ++d) {
             if(cnt[d]) {
@@ -275,6 +284,7 @@ int main() {
         levi();
         std::cout << '
 ';
+        
     }
     return 0;
 }
