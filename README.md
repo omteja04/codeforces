@@ -6,26 +6,30 @@
 
 | Total Problems | Topics |
 |---|---|
-| 16 | 14 |
+| 46 | 18 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [binary search](#binary-search) (1)
-- [brute force](#brute-force) (4)
-- [constructive algorithms](#constructive-algorithms) (2)
-- [data structures](#data-structures) (1)
+- [binary search](#binary-search) (3)
+- [brute force](#brute-force) (9)
+- [combinatorics](#combinatorics) (1)
+- [constructive algorithms](#constructive-algorithms) (5)
+- [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (1)
-- [dp](#dp) (1)
+- [dp](#dp) (4)
+- [games](#games) (1)
+- [geometry](#geometry) (1)
 - [graphs](#graphs) (1)
-- [greedy](#greedy) (7)
-- [implementation](#implementation) (7)
-- [math](#math) (5)
-- [number theory](#number-theory) (1)
+- [greedy](#greedy) (16)
+- [implementation](#implementation) (17)
+- [math](#math) (23)
+- [number theory](#number-theory) (6)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (2)
-- [strings](#strings) (2)
+- [sortings](#sortings) (6)
+- [strings](#strings) (5)
+- [two pointers](#two-pointers) (2)
 
 ---
 
@@ -34,6 +38,8 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
+| 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/B%20-%20Haunted%20House/solution.cpp) |
+| 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.cpp) |
 
 ### brute force
 
@@ -42,7 +48,18 @@
 | 1872A | [Two Vessels](https://codeforces.com/contest/1872/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/A%20-%20Two%20Vessels/solution.cpp) |
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1873/A%20-%20Short%20Sort/solution.cpp) |
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.cpp) |
+| 1884A | [Simple Design](https://codeforces.com/contest/1884/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/A%20-%20Simple%20Design/solution.cpp) |
 | 1886A | [Sum of Three](https://codeforces.com/contest/1886/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/A%20-%20Sum%20of%20Three/solution.cpp) |
+| 1920A | [Satisfying Constraints](https://codeforces.com/contest/1920/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1920/A%20-%20Satisfying%20Constraints/solution.cpp) |
+| 1941A | [Rudolf and the Ticket](https://codeforces.com/contest/1941/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/A%20-%20Rudolf%20and%20the%20Ticket/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+| 1968A | [Maximize?](https://codeforces.com/contest/1968/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/A%20-%20Maximize%3F/solution.cpp) |
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 610A | [Pasha and Stick](https://codeforces.com/contest/610/problem/A) | 1000 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/610/A%20-%20Pasha%20and%20Stick/solution.cpp) |
 
 ### constructive algorithms
 
@@ -50,12 +67,16 @@
 |---|---------|------------|----------|
 | 1878B | [Aleksa and Stack](https://codeforces.com/contest/1878/problem/B) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1878/B%20-%20Aleksa%20and%20Stack/solution.cpp) |
 | 1886A | [Sum of Three](https://codeforces.com/contest/1886/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/A%20-%20Sum%20of%20Three/solution.cpp) |
+| 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1955B | [Progressive Square](https://codeforces.com/contest/1955/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1955/B%20-%20Progressive%20Square/solution.cpp) |
+| 1968C | [Assembly via Remainders](https://codeforces.com/contest/1968/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/C%20-%20Assembly%20via%20Remainders/solution.cpp) |
 
 ### data structures
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
+| 1955B | [Progressive Square](https://codeforces.com/contest/1955/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1955/B%20-%20Progressive%20Square/solution.cpp) |
 
 ### dfs and similar
 
@@ -68,6 +89,21 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1862A | [Gift Carpet](https://codeforces.com/contest/1862/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1862/A%20-%20Gift%20Carpet/solution.cpp) |
+| 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1883/C%20-%20Raspberries/solution.cpp) |
+| 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+
+### games
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1919A | [Wallet Exchange](https://codeforces.com/contest/1919/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1919/A%20-%20Wallet%20Exchange/solution.cpp) |
+
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.cpp) |
 
 ### graphs
 
@@ -86,6 +122,15 @@
 | 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.cpp) |
 | 1878A | [How Much Does Daytona Cost?](https://codeforces.com/contest/1878/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1878/A%20-%20How%20Much%20Does%20Daytona%20Cost%3F/solution.cpp) |
 | 1882A | [Increasing Sequence](https://codeforces.com/contest/1882/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1882/A%20-%20Increasing%20Sequence/solution.cpp) |
+| 1884A | [Simple Design](https://codeforces.com/contest/1884/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/A%20-%20Simple%20Design/solution.cpp) |
+| 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/B%20-%20Haunted%20House/solution.cpp) |
+| 1920A | [Satisfying Constraints](https://codeforces.com/contest/1920/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1920/A%20-%20Satisfying%20Constraints/solution.cpp) |
+| 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1921/A%20-%20Square/solution.cpp) |
+| 1933A | [Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/A%20-%20Turtle%20Puzzle%3A%20Rearrange%20and%20Negate/solution.cpp) |
+| 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
+| 1945A | [Setting up Camp](https://codeforces.com/contest/1945/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1945/A%20-%20Setting%20up%20Camp/solution.cpp) |
+| 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/B%20-%20Prefiquence/solution.cpp) |
 
 ### implementation
 
@@ -98,22 +143,55 @@
 | 1862A | [Gift Carpet](https://codeforces.com/contest/1862/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1862/A%20-%20Gift%20Carpet/solution.cpp) |
 | 1872B | [The Corridor or There and Back Again](https://codeforces.com/contest/1872/problem/B) | 900 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/B%20-%20The%20Corridor%20or%20There%20and%20Back%20Again/solution.cpp) |
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1873/A%20-%20Short%20Sort/solution.cpp) |
+| 1926A | [Vlad and the Best of Five](https://codeforces.com/contest/1926/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1926/A%20-%20Vlad%20and%20the%20Best%20of%20Five/solution.cpp) |
+| 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.cpp) |
+| 1950A | [Stair, Peak, or Neither?](https://codeforces.com/contest/1950/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/A%20-%20Stair%2C%20Peak%2C%20or%20Neither%3F/solution.cpp) |
+| 1950B | [Upscaling](https://codeforces.com/contest/1950/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/B%20-%20Upscaling/solution.cpp) |
+| 1950C | [Clock Conversion](https://codeforces.com/contest/1950/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/C%20-%20Clock%20Conversion/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+| 1955B | [Progressive Square](https://codeforces.com/contest/1955/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1955/B%20-%20Progressive%20Square/solution.cpp) |
+| 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.cpp) |
+| 1971B | [Different String](https://codeforces.com/contest/1971/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/omteja04/codeforces/blob/HEAD/1971/B%20-%20Different%20String/solution.cpp) |
+| 1971C | [Clock and Strings](https://codeforces.com/contest/1971/problem/C) | 900 | [C++20 (GCC 13-64)](https://github.com/omteja04/codeforces/blob/HEAD/1971/C%20-%20Clock%20and%20Strings/solution.cpp) |
 
 ### math
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 610A | [Pasha and Stick](https://codeforces.com/contest/610/problem/A) | 1000 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/610/A%20-%20Pasha%20and%20Stick/solution.cpp) |
 | 1872A | [Two Vessels](https://codeforces.com/contest/1872/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/A%20-%20Two%20Vessels/solution.cpp) |
 | 1872C | [Non-coprime Split](https://codeforces.com/contest/1872/problem/C) | 1100 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/C%20-%20Non-coprime%20Split/solution.cpp) |
 | 1878B | [Aleksa and Stack](https://codeforces.com/contest/1878/problem/B) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1878/B%20-%20Aleksa%20and%20Stack/solution.cpp) |
 | 1878C | [Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C) | 900 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1878/C%20-%20Vasilije%20in%20Cacak/solution.cpp) |
+| 1883A | [Morning](https://codeforces.com/contest/1883/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1883/A%20-%20Morning/solution.cpp) |
+| 1883C | [Raspberries](https://codeforces.com/contest/1883/problem/C) | 1000 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1883/C%20-%20Raspberries/solution.cpp) |
+| 1884A | [Simple Design](https://codeforces.com/contest/1884/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/A%20-%20Simple%20Design/solution.cpp) |
+| 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/B%20-%20Haunted%20House/solution.cpp) |
 | 1886A | [Sum of Three](https://codeforces.com/contest/1886/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/A%20-%20Sum%20of%20Three/solution.cpp) |
+| 1886B | [Fear of the Dark](https://codeforces.com/contest/1886/problem/B) | 1200 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1886/B%20-%20Fear%20of%20the%20Dark/solution.cpp) |
+| 1895A | [Treasure Chest](https://codeforces.com/contest/1895/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1895/A%20-%20Treasure%20Chest/solution.cpp) |
+| 1919A | [Wallet Exchange](https://codeforces.com/contest/1919/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1919/A%20-%20Wallet%20Exchange/solution.cpp) |
+| 1920A | [Satisfying Constraints](https://codeforces.com/contest/1920/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1920/A%20-%20Satisfying%20Constraints/solution.cpp) |
+| 1921A | [Square](https://codeforces.com/contest/1921/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1921/A%20-%20Square/solution.cpp) |
+| 1933A | [Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/A%20-%20Turtle%20Puzzle%3A%20Rearrange%20and%20Negate/solution.cpp) |
+| 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.cpp) |
+| 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1941A | [Rudolf and the Ticket](https://codeforces.com/contest/1941/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/A%20-%20Rudolf%20and%20the%20Ticket/solution.cpp) |
+| 1945A | [Setting up Camp](https://codeforces.com/contest/1945/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1945/A%20-%20Setting%20up%20Camp/solution.cpp) |
+| 1950C | [Clock Conversion](https://codeforces.com/contest/1950/problem/C) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/C%20-%20Clock%20Conversion/solution.cpp) |
+| 1955A | [Yogurt Sale](https://codeforces.com/contest/1955/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1955/A%20-%20Yogurt%20Sale/solution.cpp) |
+| 1968A | [Maximize?](https://codeforces.com/contest/1968/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/A%20-%20Maximize%3F/solution.cpp) |
 
 ### number theory
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1872C | [Non-coprime Split](https://codeforces.com/contest/1872/problem/C) | 1100 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1872/C%20-%20Non-coprime%20Split/solution.cpp) |
+| 1933B | [Turtle Math: Fast Three Task](https://codeforces.com/contest/1933/problem/B) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/B%20-%20Turtle%20Math%3A%20Fast%20Three%20Task/solution.cpp) |
+| 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1950D | [Product of Binary Decimals](https://codeforces.com/contest/1950/problem/D) | 1100 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1950/D%20-%20Product%20of%20Binary%20Decimals/solution.cpp) |
+| 1968A | [Maximize?](https://codeforces.com/contest/1968/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/A%20-%20Maximize%3F/solution.cpp) |
+| 1968C | [Assembly via Remainders](https://codeforces.com/contest/1968/problem/C) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/C%20-%20Assembly%20via%20Remainders/solution.cpp) |
 
 ### shortest paths
 
@@ -127,6 +205,10 @@
 |---|---------|------------|----------|
 | 1307D | [Cow and Fields](https://codeforces.com/contest/1307/problem/D) | 1900 | [C++23 (GCC 14-64, msys2)](https://github.com/omteja04/codeforces/blob/HEAD/1307/D%20-%20Cow%20and%20Fields/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.cpp) |
+| 1933A | [Turtle Puzzle: Rearrange and Negate](https://codeforces.com/contest/1933/problem/A) | 800 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/A%20-%20Turtle%20Puzzle%3A%20Rearrange%20and%20Negate/solution.cpp) |
+| 1933D | [Turtle Tenacity: Continual Mods](https://codeforces.com/contest/1933/problem/D) | 1200 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1933/D%20-%20Turtle%20Tenacity%3A%20Continual%20Mods/solution.cpp) |
+| 1955B | [Progressive Square](https://codeforces.com/contest/1955/problem/B) | 1000 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1955/B%20-%20Progressive%20Square/solution.cpp) |
+| 1971A | [My First Sorting Problem](https://codeforces.com/contest/1971/problem/A) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1971/A%20-%20My%20First%20Sorting%20Problem/solution.cpp) |
 
 ### strings
 
@@ -134,6 +216,16 @@
 |---|---------|------------|----------|
 | 1829A | [Love Story](https://codeforces.com/contest/1829/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1829/A%20-%20Love%20Story/solution.cpp) |
 | 1862A | [Gift Carpet](https://codeforces.com/contest/1862/problem/A) | 800 | [C++17 (GCC 9-64)](https://github.com/omteja04/codeforces/blob/HEAD/1862/A%20-%20Gift%20Carpet/solution.cpp) |
+| 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1883/B%20-%20Chemistry/solution.cpp) |
+| 1941C | [Rudolf and the Ugly String](https://codeforces.com/contest/1941/problem/C) | 900 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1941/C%20-%20Rudolf%20and%20the%20Ugly%20String/solution.cpp) |
+| 1971B | [Different String](https://codeforces.com/contest/1971/problem/B) | 800 | [C++20 (GCC 13-64)](https://github.com/omteja04/codeforces/blob/HEAD/1971/B%20-%20Different%20String/solution.cpp) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1884B | [Haunted House](https://codeforces.com/contest/1884/problem/B) | 1100 | [C++20 (GCC 11-64)](https://github.com/omteja04/codeforces/blob/HEAD/1884/B%20-%20Haunted%20House/solution.cpp) |
+| 1968B | [Prefiquence](https://codeforces.com/contest/1968/problem/B) | 800 | [C++17 (GCC 7-32)](https://github.com/omteja04/codeforces/blob/HEAD/1968/B%20-%20Prefiquence/solution.cpp) |
 
 ---
 
