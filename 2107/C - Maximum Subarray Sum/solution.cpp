@@ -307,7 +307,7 @@ void levi() {
  
     int l_max = LLONG_MIN, l_sum = 0;
     bool l_found = false;
-    
+ 
     for(int i = z_pos - 1; i >= 0 && s[i] == '1'; i--) {
         l_sum += a[i];
         l_max = max(l_max, l_sum);
@@ -363,3 +363,4 @@ int main() {
     }
     return 0;
 }
+ 
